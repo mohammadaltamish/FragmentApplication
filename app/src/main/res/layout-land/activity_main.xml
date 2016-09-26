@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <fragment android:name="com.training.al.fragmentapplication.BlankFragment"
+  <!--  <fragment android:name="com.training.al.fragmentapplication.BlankFragment"
         android:id="@+id/headlines_fragment"
         android:layout_weight="1"
         android:layout_width="0dp"
@@ -14,6 +14,6 @@
         android:id="@+id/article_fragment"
         android:layout_weight="1"
         android:layout_width="0dp"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" />-->
 
 </LinearLayout>

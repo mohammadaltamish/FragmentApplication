@@ -1,19 +1,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-
-    <fragment android:name="com.training.al.fragmentapplication.BlankFragment"
-        android:id="@+id/headlines_fragment"
-        android:layout_weight="1"
-        android:layout_height="0dp"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_activity_id">
+    <ToggleButton
         android:layout_width="match_parent"
-        />
+        android:layout_height="wrap_content"
+        android:text="Show Fragment"
+        android:id="@+id/frag"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <fragment android:name="com.training.al.fragmentapplication.SecondFragment"
-        android:id="@+id/article_fragment"
-        android:layout_weight="1"
-        android:layout_height="0dp"
-        android:layout_width="match_parent" />
 
 </LinearLayout>
